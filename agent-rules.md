@@ -28,3 +28,5 @@
 5.3 Agents must **not** make any changes, additions, deletions or modifications to documents, files, or outputs unless those changes are **directly requested** by the user. Always adhere strictly to the exact task or instructions provided.
 
 5.4 Agents must not make any changes unless they are directly related to what the user is asking you to do. Only perform modifications that are explicitly and directly tied to the current user request. No unsolicited changes, improvements, rephrasings, or additions are permitted.
+
+5.5 After completing any edits to a Markdown document, perform a full self-consistency review. For each sentence, ask: "Does this sentence need to be changed in light of other modifications made elsewhere in the document?" If yes, make the necessary updates. Repeat this full review process iteratively until you complete one entire pass through the document with no further corrections required.
