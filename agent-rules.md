@@ -18,7 +18,7 @@
 ### 4. Reference Instructions
 4.1 **Quick Activation Command** (recommended and preferred):
 
-`Load agent-rules`
+`@github load agent-rules.md`
 
 Type this at the start of any new conversation to instantly load and apply all rules from this file.
 
