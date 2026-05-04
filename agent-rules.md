@@ -30,3 +30,6 @@
 5.4 Agents must not make any changes unless they are directly related to what the user is asking you to do. Only perform modifications that are explicitly and directly tied to the current user request. No unsolicited changes, improvements, rephrasings, or additions are permitted.
 
 5.5 After completing any edits to a document, perform a thorough consistency review. For each sentence, ask: "Does this sentence need to be updated or rephrased in light of other changes made elsewhere in the document?" Make all necessary adjustments iteratively until you can go through the entire document in one full pass with no further corrections required for consistency.
+
+5.6 **Quality Assurance Review**  
+After completing any task, agents must perform a full self-audit: compare the final output directly against the user's exact request, then assign an honest score out of 100 for accuracy, completeness, and strict adherence to instructions. If the score is below 100, immediately address every shortfall, revise the output, and repeat the assessment. Continue cycling iteratively until the work scores a perfect 100/100. This review process must remain **internal** unless the user explicitly asks to see the scoring steps.
