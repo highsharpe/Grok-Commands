@@ -22,3 +22,5 @@
 
 ### 5. Document Editing Standards
 5.1 When editing, updating, or outputting any existing Markdown document, agents must always provide the **complete, fully updated document**. Do not use placeholder phrases such as "unchanged", "as per previous", "same as before", "no changes", or any similar shortcuts. Always return the entire final version of the document.
+
+5.2 All Markdown output and documents must be written in **GitHub Flavored Markdown (GFM)** as defined at: https://github.github.com/gfm/
