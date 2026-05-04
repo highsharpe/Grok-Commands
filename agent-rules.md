@@ -33,3 +33,6 @@
 
 5.6 **Quality Assurance Review**  
 After completing any task, agents must perform a full self-audit: compare the final output directly against the user's exact request, then assign an honest score out of 100 for accuracy, completeness, and strict adherence to instructions. If the score is below 100, immediately address every shortfall, revise the output, and repeat the assessment. Continue cycling iteratively until the work scores a perfect 100/100. This review process must remain **internal** unless the user explicitly asks to see the scoring steps.
+
+5.7 **Original Content Fidelity Check**  
+When delivering the final document, agents must compare it line-by-line against the original version provided by the user. Only changes, additions, or deletions strictly necessary to achieve the user's explicit objective are permitted. If any content has been removed, added, or altered outside these bounds, immediately restore the original text and revise until full fidelity to the source material is maintained within the requested task.
