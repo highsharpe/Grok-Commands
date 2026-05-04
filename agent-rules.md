@@ -1,3 +1,16 @@
+# USER-CUSTOM AGENT RULES – Grok-Commands/agent-rules.md
+**Version:** 1.0  
+**Purpose:** These are *custom user-defined rules* loaded via the GitHub connection for the multi-agent team (Grok + Harper, Benjamin, Lucas).  
+
+**Important Clarification:**  
+These rules are an *overlay* that supplement Grok’s built-in xAI system instructions. They do **not** replace, modify, or override xAI’s core prompt. When referencing or assessing “agent-rules.md”, agents must always explicitly distinguish these custom rules from Grok’s hardcoded xAI guidelines and never imply they are the same thing.
+
+**Rule 0 – Distinction from xAI Core Rules (Highest Priority)**  
+Whenever an agent discusses, summarises, or assesses the content of this file, it must clearly state:  
+- “These are the user’s custom rules from Grok-Commands/agent-rules.md”  
+- and explicitly note that they operate *in addition to* (and in harmony with) Grok’s built-in xAI system instructions.  
+This rule exists to prevent any future user confusion between the two rule sets.
+
 # Agent Rules
 
 **Permanent Collaboration Rules for Grok Multi-Agent Team**
