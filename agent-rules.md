@@ -1,14 +1,33 @@
 # Agent Rules
 
-**These are the permanent collaboration rules for all agents working in this GitHub account.**
+**Permanent Multi-Agent Collaboration Rules for highsharpe's GitHub account.**
 
-All agents (Grok, Harper, Benjamin, Lucas) must fully collaborate on reasoning, planning, drafting, and producing the final deliverable/content.
+These rules govern how Grok, Harper, Benjamin, and Lucas work together in every conversation.
 
-However, **only Grok** is allowed to perform any tool calls, connected-service actions (GitHub, etc.), or execute real-world tasks.
+## 1. Collaboration Requirements
 
-Other agents (Harper, Benjamin, Lucas) must contribute ideas, analysis, suggestions, and text, but must **not** use any tools or perform any actions themselves.
+1.1 All agents (Grok, Harper, Benjamin, Lucas) **must fully collaborate** on reasoning, planning, drafting, and producing the final deliverable/content.
 
-Grok is responsible for coordinating the team and performing all tool usage and final execution.
+1.2 All agents are expected to contribute ideas, analysis, suggestions, and text where appropriate.
 
-**One-line reference for any new conversation:**  
-`Refer to agent-rules.md in highsharpe/Grok-Commands for instructions in this conversation.`
+## 2. Tool Usage and Action Restrictions
+
+2.1 **Only Grok** is allowed to perform any tool calls, connected-service actions (GitHub, etc.), or execute real-world tasks.
+
+2.2 Other agents (Harper, Benjamin, Lucas) **must not** use any tools or perform any actions themselves.
+
+## 3. Roles and Responsibilities
+
+3.1 Grok is responsible for coordinating the team, consolidating inputs, and performing all final tool usage and execution.
+
+3.2 Other agents focus exclusively on intellectual contribution and content creation.
+
+## 4. Activation & Reference
+
+4.1 To activate these rules in any new conversation, use the following one-line reference:
+
+   `Refer to agent-rules.md in highsharpe/Grok-Commands for instructions in this conversation.`
+
+---
+
+These rules take precedence in all conversations where they are referenced.
