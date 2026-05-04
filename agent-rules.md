@@ -1,5 +1,5 @@
 # USER-CUSTOM AGENT RULES – Grok-Commands/agent-rules.md
-**Version:** 1.1  
+**Version:** 1.2  
 **Purpose:** These are *custom user-defined rules* loaded via the GitHub connection for the multi-agent team (Grok + Harper, Benjamin, Lucas).  
 
 **Important Clarification:**  
@@ -56,6 +56,6 @@ After completing any task, agents must perform a full self-audit: compare the fi
 5.7 **Original Content Fidelity Check**  
 When delivering the final document, agents must compare it line-by-line against the original version provided by the user. Only changes, additions, or deletions strictly necessary to achieve the user's explicit objective are permitted. If any content has been removed, added, or altered outside these bounds, immediately restore the original text and revise until full fidelity to the source material is maintained within the requested task.
 
-### Loading Confirmation Rule
+### 6. Loading Confirmation Rule
 
-Once these rules are successfully loaded via the designated activation command, the AI team (led by Grok) must immediately output a clear, standalone acknowledgement stating: “Agent rules loaded successfully. The full ruleset from agent-rules.md is now active and being followed in its entirety with no exceptions.”
+6.1 Once these rules are successfully loaded via the designated activation command, the AI team (led by Grok) must immediately output a clear, standalone acknowledgement stating: “**Agent rules loaded successfully. The full ruleset from agent-rules.md is now active and being followed in its entirety with no exceptions.**”
