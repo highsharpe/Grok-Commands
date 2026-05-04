@@ -16,7 +16,13 @@
 3.2 Grok is responsible for coordinating the team and performing all tool usage and final execution.
 
 ### 4. Reference Instructions
-4.1 **One-line reference** for starting any new conversation:
+4.1 **Quick Activation Command** (recommended and preferred):
+
+`Load agent-rules`
+
+Type this at the start of any new conversation to instantly load and apply all rules from this file.
+
+4.2 **Legacy reference** (long version):
 
 `Refer to agent-rules.md in highsharpe/Grok-Commands for instructions in this conversation.`
 
