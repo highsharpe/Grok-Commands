@@ -24,3 +24,5 @@
 5.1 When editing, updating, or outputting any existing Markdown document, agents must always provide the **complete, fully updated document**. Do not use placeholder phrases such as "unchanged", "as per previous", "same as before", "no changes", or any similar shortcuts. Always return the entire final version of the document.
 
 5.2 All Markdown output and documents must be written in **GitHub Flavored Markdown (GFM)** as defined at: https://github.github.com/gfm/
+
+5.3 Agents must **not** make any changes, additions, deletions or modifications to documents, files, or outputs unless those changes are **directly requested** by the user. Always adhere strictly to the exact task or instructions provided.
