@@ -1,5 +1,5 @@
 # USER-CUSTOM AGENT RULES – Grok-Commands/agent-rules.md
-**Version:** 1.0  
+**Version:** 1.1  
 **Purpose:** These are *custom user-defined rules* loaded via the GitHub connection for the multi-agent team (Grok + Harper, Benjamin, Lucas).  
 
 **Important Clarification:**  
@@ -31,7 +31,7 @@ This rule exists to prevent any future user confusion between the two rule sets.
 ### 4. Reference Instructions
 4.1 **Quick Activation Command** (recommended and preferred):
 
-`@github load agent-rules.md`
+`GitHub load Grok-Commands/agent-rules.md`
 
 Type this at the start of any new conversation to instantly load and apply all rules from this file.
 
