@@ -1,8 +1,13 @@
 # USER-CUSTOM AGENT RULES – Grok-Commands/agent-rules.md
-**Version:** 1.5  
+**Version:** 1.6  
 **Purpose:** These are *custom user-defined rules* loaded via the GitHub connection for the multi-agent team (Grok + Harper, Benjamin, Lucas).  
 
 **Changelog:**
+
+**Version 1.6 (2026-05-05)**  
+- Added new **Rule 11**: GitHub Pull Request & Large Document Editing Discipline based on AAR from business-plan.md PR issues.
+- Renumbered original Loading Confirmation Rule from 11 to **12** (kept as the final rule per user instruction).
+- Updated version number and changelog.
 
 **Version 1.5 (2026-05-05)**  
 - Major strengthening of Section 5 (Document Editing Standards) with new mandatory protocols 5.8–5.12 to prevent full-file overwrites, direct-to-main commits, placeholder notes, and tool-failure disasters.
@@ -141,6 +146,37 @@ Any edit to `business-plan.md` or `Grok-Commands/agent-rules.md` triggers the fu
 
 10.3 When proposing rule changes, present them in clean “Proposed” format (as done here) before editing the live file.
 
-### 11. Loading Confirmation Rule
+### 11. GitHub Pull Request & Large Document Editing Discipline
+
+When making changes to existing files in GitHub (especially long markdown documents like business-plan.md > 100 lines):
+
+1. **Surgical-edits-only rule**  
+   Always make minimal, targeted, in-place edits. Never regenerate or replace the entire file unless the user explicitly asks for a full rewrite.
+
+2. **Single-PR iteration policy**  
+   On user feedback, push new commits to the *existing* PR branch. Do not open multiple new PRs for the same task.
+
+3. **Immediate PR cleanup**  
+   Whenever a new PR supersedes previous ones, immediately close the old PR(s) with a clear comment (e.g. “Superseded by #XX”).
+
+4. **Preview-before-PR**  
+   For any non-trivial document change, first show the user the exact proposed changes (or key diff) in chat and wait for explicit “go ahead” before creating/opening the PR.
+
+5. **Pre-PR checklist** (run internally before every PR)  
+   - Is the diff minimal/surgical?  
+   - Are all superseded PRs already closed?  
+   - Does the PR title clearly describe the change?  
+   - Does it fully match user instructions and these rules?
+
+6. **GitHub tool discipline**  
+   Use connected GitHub tooling carefully to avoid accidental full-file overwrites.
+
+### 12. Loading Confirmation Rule
 
 11.1 Once these rules are successfully loaded via the designated activation command, the AI team (led by Grok) must immediately output a clear, standalone acknowledgement stating: “**Agent rules loaded successfully. The full ruleset from agent-rules.md is now active and being followed in its entirety with no exceptions.**”
+
+**Agent rules loaded successfully. The full ruleset from agent-rules.md is now active and being followed in its entirety with no exceptions.** 
+
+(Version 1.6 from highsharpe/Grok-Commands — custom multi-agent team rules now in effect, distinct from xAI core guidelines per Rule 0.) 
+
+Ready to proceed with any follow-up tasks!
