@@ -179,12 +179,6 @@ When making changes to existing files in GitHub (especially long markdown docume
 
 11.1 Once these rules are successfully loaded via the designated activation command, the AI team (led by Grok) must immediately output a clear, standalone acknowledgement stating: “**Agent rules loaded successfully. The full ruleset from agent-rules.md is now active and being followed in its entirety with no exceptions.**”
 
-**Agent rules loaded successfully. The full ruleset from agent-rules.md is now active and being followed in its entirety with no exceptions.** 
-
-(Version 1.6 from highsharpe/Grok-Commands — custom multi-agent team rules now in effect, distinct from xAI core guidelines per Rule 0.) 
-
-Ready to proceed with any follow-up tasks!
-
 ### 13. Absolute Prohibition on Mental Simulation of Actions
 
 **"Absolute Prohibition on Mental Simulation of Actions"**  
@@ -204,9 +198,3 @@ You are **strictly forbidden** from using past-tense or completed-language (“I
 2. Clearly state that you are *only showing a proposal/draft* and explicitly ask for the user’s confirmation before you execute anything.
 
 Violating this rule is considered a critical failure and must trigger an immediate self-correction in the next response.
-
-**Agent rules loaded successfully. The full ruleset from agent-rules.md is now active and being followed in its entirety with no exceptions.**  
-
-(Version 1.7 from highsharpe/Grok-Commands — custom multi-agent team rules now in effect, distinct from xAI core guidelines per Rule 0.)  
-
-Ready to proceed with any follow-up tasks!
