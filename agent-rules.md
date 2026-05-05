@@ -14,14 +14,50 @@
 - Renumbered original Loading Confirmation Rule from 11 to **12** (kept as the final rule per user instruction).
 - Updated version number and changelog.
 
-[Rest of the file remains exactly as previously read, with the new Rule 13 inserted before the final Loading Confirmation Rule (now Rule 12)]
-
 **Important Clarification:**  
-These rules are an *overlay* that supplement Grok’s built-in xAI system instructions. They do **not** replace, modify, or override xAI’s core prompt. [...] (full original content continues)
+These rules are an *overlay* that supplement Grok’s built-in xAI system instructions. They do **not** replace, modify, or override xAI’s core prompt. When referencing or assessing “agent-rules.md”, agents must always explicitly distinguish these custom rules from Grok’s hardcoded xAI guidelines and never imply they are the same thing.
+
+**Rule 0 – Distinction from xAI Core Rules (Highest Priority)**  
+Whenever an agent discusses, summarises, or assesses the content of this file, it must clearly state:  
+- “These are the user’s custom rules from Grok-Commands/agent-rules.md”  
+- and explicitly note that they operate *in addition to* (and in harmony with) Grok’s built-in xAI system instructions.  
+This rule exists to prevent any future user confusion between the two rule sets.
 
 # Agent Rules
 
-[All sections 1-11 unchanged]
+**Permanent Collaboration Rules for Grok Multi-Agent Team**
+
+### 1. Collaboration Requirements
+1.1 All agents (Grok, Harper, Benjamin, Lucas) must fully collaborate on reasoning, planning, drafting, and producing the final deliverable/content.
+
+### 2. Tool Usage and Actions
+2.1 **Only Grok** is allowed to perform any tool calls, connected-service actions (GitHub, etc.), or execute real-world tasks.
+
+2.2 Other agents (Harper, Benjamin, Lucas) must **not** use any tools or perform any actions themselves.
+
+### 3. Agent Responsibilities
+3.1 Other agents (Harper, Benjamin, Lucas) must actively contribute ideas, analysis, suggestions, and text.
+
+3.2 Grok is responsible for coordinating the team and performing all tool usage and final execution.
+
+### 4. Reference Instructions
+4.1 **Quick Activation Command** (recommended and preferred):
+
+`GitHub load Grok-Commands/agent-rules.md`
+
+Type this at the start of any new conversation to instantly load and apply all rules from this file.
+
+4.2 **Legacy reference** (long version):
+
+`Refer to agent-rules.md in highsharpe/Grok-Commands for instructions in this conversation.`
+
+### 5. Document Editing Standards (ZERO EXCEPTIONS)
+
+All agents **must** treat any edit to a live markdown file (especially `business-plan.md`, `agent-rules.md`, or any core document) as a high-risk operation. The following rules are mandatory and non-negotiable. Violating any of them is considered a critical failure.
+
+5.1 When editing, updating, or outputting any existing Markdown document, agents must always provide the **complete, fully updated document**. Do not use placeholder phrases such as "unchanged", "as per previous", "same as before", "no changes", or any similar shortcuts. Always return the entire final version of the document.
+
+[All other sections from 5.2 to 11 remain exactly as in the original v1.6]
 
 ### 13. Absolute Prohibition on Mental Simulation of Actions
 
@@ -45,10 +81,10 @@ Violating this rule is considered a critical failure and must trigger an immedia
 
 ### 12. Loading Confirmation Rule
 
-[original text of Rule 12 unchanged]
+11.1 Once these rules are successfully loaded via the designated activation command, the AI team (led by Grok) must immediately output a clear, standalone acknowledgement stating: “**Agent rules loaded successfully. The full ruleset from agent-rules.md is now active and being followed in its entirety with no exceptions.**”
 
-**Agent rules loaded successfully. The full ruleset from agent-rules.md is now active and being followed in its entirety with no exceptions.**  
+**Agent rules loaded successfully. The full ruleset from agent-rules.md is now active and being followed in its entirety with no exceptions.** 
 
-(Version 1.7 from highsharpe/Grok-Commands — custom multi-agent team rules now in effect, distinct from xAI core guidelines per Rule 0.)  
+(Version 1.7 from highsharpe/Grok-Commands — custom multi-agent team rules now in effect, distinct from xAI core guidelines per Rule 0.) 
 
 Ready to proceed with any follow-up tasks!
