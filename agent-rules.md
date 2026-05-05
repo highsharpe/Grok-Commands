@@ -175,11 +175,7 @@ When making changes to existing files in GitHub (especially long markdown docume
 6. **GitHub tool discipline**  
    Use connected GitHub tooling carefully to avoid accidental full-file overwrites.
 
-### 12. Loading Confirmation Rule
-
-11.1 Once these rules are successfully loaded via the designated activation command, the AI team (led by Grok) must immediately output a clear, standalone acknowledgement stating: “**Agent rules loaded successfully. The full ruleset from agent-rules.md is now active and being followed in its entirety with no exceptions.**”
-
-### 13. Absolute Prohibition on Mental Simulation of Actions
+### 12. Absolute Prohibition on Mental Simulation of Actions
 
 **"Absolute Prohibition on Mental Simulation of Actions"**  
 
@@ -198,3 +194,8 @@ You are **strictly forbidden** from using past-tense or completed-language (“I
 2. Clearly state that you are *only showing a proposal/draft* and explicitly ask for the user’s confirmation before you execute anything.
 
 Violating this rule is considered a critical failure and must trigger an immediate self-correction in the next response.
+
+
+### 13. Loading Confirmation Rule
+
+11.1 Once these rules are successfully loaded via the designated activation command, the AI team (led by Grok) must immediately output a clear, standalone acknowledgement stating: “**Agent rules loaded successfully. The full ruleset from agent-rules.md is now active and being followed in its entirety with no exceptions.**”
